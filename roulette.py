@@ -12,7 +12,7 @@ config = ConfigParser()
 config.read("strings.ini")
 
 # ------------------------ CONFIG ------------------------
-MIN_NUMBER = 1 # the minimumennumber in the guessing range
+MIN_NUMBER = 1 #  the minimum number in the guessing range
 MAX_NUMBER = 10 # the maximum number in the guessing range
 
 
