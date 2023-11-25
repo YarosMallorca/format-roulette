@@ -29,7 +29,6 @@ while True:
     random_number = randint(MIN_NUMBER, MAX_NUMBER) # generate a random number between MIN_NUMBER and MAX_NUMBER
 
     print(config[language]["play"])
-    print(random_number)
     guessed_number = int(input(config[language]["tellme"].replace("{min}", str(MIN_NUMBER)).replace("{max}", str(MAX_NUMBER)).replace(r"\n", "\n") + " "))
     print("\n")
     if (guessed_number == random_number):
